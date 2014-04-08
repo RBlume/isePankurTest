@@ -1,0 +1,239 @@
+* {
+    font-family: arial;
+    font-size: 14px;
+}
+body {
+    background-color: #F6FDFF;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    list-style: none;
+}
+
+#slider ul li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background: #B6D9A0;
+    text-align: center;
+    line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #438ec0;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+img.img_slider {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#email_invalid{
+    display: none;
+}
+
+.invalid_field {
+
+}
+
+#div_campaign_text {
+    width: 30%;
+    float: left;
+    background-color: #3782B4;
+    min-height: 300px;
+}
+
+#div_campaign_middle {
+    width: 2%;
+    height: 100%;
+    float: left;
+    display: block;
+}
+
+#div_campaign_images {
+    width: 68%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    font-style: normal;
+    font-family: Signika;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #4aad12;
+    text-align: left;
+    margin: 0 0 18px 0;
+    display: block;
+}
+
+h2 {
+    color: #fff;
+    margin: 10px;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: bold;
+    font-family: 'PT Sans' !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    margin: 0 0 9px 0;
+    display: block;
+    text-align: justify;
+    line-height: 20px;
+}
+
+#campaign_text {
+    color: white;
+    margin: 10px;
+    padding: 6px;
+    background-color: #438EC0;
+    font-size: 16px;
+    font-family: 'PT Sans' !important;
+}
+
+#separator {
+    margin: 8px 0px;
+    height: 4px;
+    background-color: #4C97C9;
+}
+
+#div_form {
+    position: relative;
+    left: 32%;
+    width: 68%;
+    margin: 10px 0px;
+    background-color: white;
+    //margin: 0 auto;
+    //float: left;
+}
+
+#table_form {
+    padding: 10px;
+    margin: auto auto;
+}
+
+.submit-button {
+    display: inline-block;
+    height: 34px;
+    padding: 0 0 0 8px;
+    background: url("../resources/3rd-level-sprite.png") no-repeat 0 -360px;
+    border-bottom: none!important;
+    cursor: pointer;
+    font-size: 14px!important;
+    margin-bottom: 8px;
+}
+
+.submit-button span {
+    font-family: Signika,'Trebuchet MS',sans-serif;
+    color: #fff;
+    font-weight: normal;
+    display: inline-block;
+    padding: 7px 16px 10px 8px;
+    background: url("../resources/3rd-level-sprite.png") no-repeat right -398px;
+    text-shadow: #328900 1px 0 1px;
+    text-transform: uppercase;
+}
+
+.invalid_field {
+    color: #d52a2a;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#label_email {
+    float: left;
+}
+
+.mail-input {
+    margin-bottom: 5px;
+    display: block;
+    margin: 8px 0px;
+    padding: 4px;
+    height: 22px;
+    border: solid 1px #DEDEDE;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.terms_conditions {
+    color: #7f949c;
+    font-size: 11px;
+}
+
+.clickable_terms {
+    font-size: 11px;
+}
+
+#footer_text {
+    color: #535e68;
+}
+
+#footer_title {
+    color: #498497;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 6px 0px;
+}
+
+#tos {
+    margin: 10px;
+    padding: 10px;
+    background-color: #E0ECF8;
+    color: #535e68;
+}
+
+#tos li {
+    font-size: 16px;
+}
